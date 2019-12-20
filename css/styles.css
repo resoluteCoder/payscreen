@@ -1,0 +1,51 @@
+@media screen and (max-width: 1087px) {
+  .container {
+    padding: 25px;
+  }
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.boxes {
+  background:#333;
+  height: 50px;
+}
+
+.inputs {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.card-icon {
+  margin: 10px 0 0 10px;
+  height:25px;
+  width: 35px;
+  display:inline;
+
+}
+
+#yup {
+  color:white;
+}
+.button {
+  margin-top: 15px;
+}
+.notification {
+  opacity: 0;
+}

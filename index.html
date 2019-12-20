@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pay Screen</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="notification is-success">
+        <button class="delete"></button>
+        <p class = "has-text-centered">Payment Successful!</p>
+      </div>
+      <!-- payment method -->
+      <div class="columns">
+        <div class="column is-5">
+          <div class="content">
+            <h4>Payment Method</h4>
+            <p>Credit Card</p>
+            <br>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-5">
+          <!-- card number  -->
+          <p>Card Number</p>
+          <input class = "inputs" type="text" name="" maxlength="19" placeholder="1234567812345678">
+          <img class = "card-icon" src="images/visa.png" alt="">
+          <img class = "card-icon" src="images/mastercard.png" alt="">
+          <img class = "card-icon" src="images/discover.png" alt="">
+          <img class = "card-icon" src="images/amex.png" alt="">
+        </div>
+
+        <!-- expiration date -->
+        <div class="column is-2">
+          <p>Exp Date</p>
+          <input class = "inputs" type="text" name="" maxlength="2" placeholder="01">
+        </div>
+        <div class="column">
+          <p id="yup">Hacky Stuff</p>
+          <input class = "inputs" type="text" name="" maxlength = "4" placeholder="2020">
+        </div>
+        <!-- cvv -->
+        <div class="column">
+          <p>CVV</p>
+          <input class = "inputs" type="text" name="" maxlength = "4" placeholder="123">
+        </div>
+      </div>
+
+      <!-- name on card -->
+      <div class="columns">
+        <div class="column is-5">
+          <p>Name on Card</p>
+          <input class = "inputs" type="text" name="" placeholder="Flynn Keegan">
+        </div>
+        <div class="column">
+        </div>
+      </div>
+
+      <div class="columns">
+        <!-- cancel -->
+        <div class="column">
+          <div class="button is-danger is-outlined is-fullwidth">Cancel</div>
+        </div>
+
+        <!-- pay now -->
+        <div class="column">
+          <div id = "pay" class="button is-success is-outlined is-fullwidth" disabled>Pay Now</div>
+        </div>
+      </div>
+    </div>
+
+  <script src="js/script.js">
+
+  </script>
+  </body>
+</html>
